@@ -5,11 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./index.css">
     <link rel="stylesheet" href="./global.css">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <title>Portafolio</title>
 </head>
 <body>
     <header class="encabezado">
-        <span>fulanoi de tal</span>
+        <span class="encabezado__nombre"><i class="bi bi-stars"></i>fulanoi de tal</span>
         <nav class="encabezado__navegacion">
             <ul class="encabezado__navegacion__lista">
                 <li class="encabezado__navegacion__lista__elementos">Sobre mi</li>
@@ -27,17 +29,22 @@
             <div class="presentacion__contenido">
                 <h1 class="presentacion__contenido__titulo">Hola, mi nombre es Fulana de Tal y construyo paginas web</h1>
                 <p class="presentacion__contenido__informacion">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium earum 
-                    numquam, deleniti ipsa quisquam, reprehenderit illum ab laborum nam nihil 
-                    quas aspernatur nobis voluptas dicta. Recusandae, dolorum veritatis. Facilis, 
-                    nemo!
+                    Soy formada en .... lorem ipsum sit amet consectetur y 
+                    actualmente estoy participando del proyecto Oracle ONE 
+                    en Alura Latam.
                 </p>
+                <ul class="presentacion__contenido__lista">
+                    <li><a>lasdja<i class="bi bi-arrow-up-right-circle"></i></a></li>
+                    <li><a>adsadad<i class="bi bi-arrow-up-right-circle"></i></a></li>
+                    <li><a>asdad<i class="bi bi-arrow-up-right-circle"></i></a></li>
+                    <li><a>adadasd<i class="bi bi-arrow-up-right-circle"></i></a></li>
+                </ul>
             </div>
             <img class="presentacion__contenido__imagen" src="./img/Foto.png" alt="">
         </section>
         <section class="sobre-mi">
             <div class="sobre-mi__contenido">
-                <h2 class="sobre-mi__contenido__titulo">sobre mi</h2>
+                <h2 class="sobre-mi__contenido__titulo">Sobre mi</h2>
                 <p class="sobre-mi__contenido__parrafo">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero voluptate ipsa modi fugit 
                     natus fuga, in impedit odio rem officia voluptates rerum illo vitae assumenda deleniti neque 
                     animi? Dolorum, officia.</p>
@@ -77,22 +84,22 @@
                 <figure>
                     <img src="./img/Imagen(UFPR).png" alt="" height="242px" width="324px">
                     <figcaption>
-                        <h3>Análisis de datos</h3>
-                        <p>2018 - UFRP</p>
+                        <h3 class="formacion__academica__contenido__titulo">Análisis de datos</h3>
+                        <p class="formacion__academica__contenido__informacion">2018 - UFRP</p>
                     </figcaption>
                 </figure>
                 <figure>
                     <img src="./img/Imagen(alura).png" alt="" height="242px" width="324px">
                     <figcaption>
-                        <h3>Formación en UX Design</h3>
-                        <p>2019 - Alura</p>
+                        <h3 class="formacion__academica__contenido__titulo">Formación en UX Design</h3>
+                        <p class="formacion__academica__contenido__informacion">2019 - Alura</p>
                     </figcaption>
                 </figure>
                 <figure>
                     <img src="./img/Image(UFRJ).png" alt="" height="242px" width="324px">
                     <figcaption>
-                        <h3>Posgrado en design</h3>
-                        <p>En curso - UFRJ</p>
+                        <h3 class="formacion__academica__contenido__titulo">Posgrado en design</h3>
+                        <p class="formacion__academica__contenido__informacion">En curso - UFRJ</p>
                     </figcaption>
                 </figure>
             </div>
@@ -102,32 +109,32 @@
             <figure class="experiencia__profesional__bloque">
                 <img src="./img/Experiencia--codigo__secreto.png" alt="" width="742px" height="396px">
                 <figcaption>
-                    <h3>Encriptador de texto</h3>
-                    <p>Challenge Alura Codificador</p>
-                    <button>Repositorio</button> <button>Ver demo</button>
+                    <h3 class="experiencia__profesional__bloque__titulo">Encriptador de texto</h3>
+                    <p class="experiencia__profesional__bloque__informacion">Challenge Alura Codificador</p>
+                    <button class="experiencia__profesional__bloque__boton">Repositorio</button> <button class="experiencia__profesional__bloque__boton">Ver demo</button>
                 </figcaption>
             </figure>
             <figure class="experiencia__profesional__bloque">
                 <figcaption>
-                    <h3>Encriptador de texto</h3>
-                    <p>Challenge Alura Codificador</p>
-                    <button>Repositorio</button> <button>Ver demo</button>
+                    <h3 class="experiencia__profesional__bloque__titulo">Encriptador de texto</h3>
+                    <p class="experiencia__profesional__bloque__informacion">Challenge Alura Codificador</p>
+                    <button class="experiencia__profesional__bloque__boton">Repositorio</button> <button class="experiencia__profesional__bloque__boton">Ver demo</button>
                 </figcaption>
                 <img src="./img/Experiencia--colgado.png" alt="" width="742px" height="396px">
             </figure>
             <figure class="experiencia__profesional__bloque">
                 <img src="./img/Experiencia--desencriptador.png" alt="" width="742px" height="396px">
                 <figcaption>
-                    <h3>Encriptador de texto</h3>
-                    <p>Challenge Alura Codificador</p>
-                    <button>Repositorio</button> <button>Ver demo</button>
+                    <h3 class="experiencia__profesional__bloque__titulo">Encriptador de texto</h3>
+                    <p class="experiencia__profesional__bloque__informacion">Challenge Alura Codificador</p>
+                    <button class="experiencia__profesional__bloque__boton">Repositorio</button> <button class="experiencia__profesional__bloque__boton">Ver demo</button>
                 </figcaption>
             </figure>
             <figure class="experiencia__profesional__bloque">
                 <figcaption>
-                    <h3>Encriptador de texto</h3>
-                    <p>Challenge Alura Codificador</p>
-                    <button>Repositorio</button> <button>Ver demo</button>
+                    <h3 class="experiencia__profesional__bloque__titulo">Encriptador de texto</h3>
+                    <p class="experiencia__profesional__bloque__informacion">Challenge Alura Codificador</p>
+                    <button class="experiencia__profesional__bloque__boton">Repositorio</button> <button class="experiencia__profesional__bloque__boton">Ver demo</button>
                 </figcaption>
                 <img src="./img/Experiencia--colgado-dieseño.png" alt="" width="742px" height="396px">
             </figure>
@@ -136,18 +143,18 @@
             <figure class="contacto__contenido">
                 <img src="./img/foto__telefono.png" alt="" width="454px" height="583px">
                 <figcaption>
-                    <h2>Contacto</h2>
-                    <p>
-                        ¿Quieres contactarme?
+                    <h2 class="contacto__contenido__titulo">Contacto</h2>
+                    <p class="contacto__contenido__informacion">
+                        ¿Quieres contactarme?<br>
                         Complete el siguiente formulario y 
                         me pondré en contacto con usted lo 
                         antes posible.
                     </p>
-                    <button>Enviar mensaje</button>
+                    <button class="contacto__contenido__boton">Enviar mensaje</button>
                 </figcaption>
             </figure>
         </section>
     </main>
- <footer>Desarrollado por Orlando Junior</footer>
+ <footer class="pie__pagina">Desarrollado por Orlando Junior</footer>
 </body>
 </html>
